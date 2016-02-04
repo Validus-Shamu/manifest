@@ -21,7 +21,11 @@
   <default revision="refs/tags/android-6.0.1_r13"
            remote="aosp"
            sync-j="4" />
-
+           
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod"
+           revision="cm-13.0" />
+           
   <!-- Validus repos -->
   <project path="build" name="build" remote="vo" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -331,16 +335,9 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
+  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel"/>
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="aospb" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
@@ -539,5 +536,15 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3-uber" name="UBERTC/arm-linux-androideabi-5.3" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="UBERTC/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
+
+    <!-- BEGIN CYANOGENMOD -->
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="cm" />
+  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" remote="cm" />
+  <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" remote="cm"  />
+  <project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" remote="cm" />
+  <project path="hardware/intel/common/omx-components" name="CyanogenMod/android_hardware_intel_common_omx-components" remote="cm" />
+  <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" remote="cm" />
+  <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" remote="cm" />
+  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" remote="cm" />
 
 </manifest>
