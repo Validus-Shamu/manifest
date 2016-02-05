@@ -538,13 +538,13 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="UBERTC/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
 
     <!-- BEGIN CYANOGENMOD -->
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="cm" />
-  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" remote="cm" />
-  <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" remote="cm"  />
-  <project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" remote="cm" />
-  <project path="hardware/intel/common/omx-components" name="CyanogenMod/android_hardware_intel_common_omx-components" remote="cm" />
-  <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" remote="cm" />
-  <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" remote="cm" />
-  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" remote="cm" />
+  <project path="external/stlport" name="android_external_stlport" remote="cm" />
+  <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" remote="cm" />
+  <project path="hardware/intel/common/libva" name="android_hardware_intel_common_libva" remote="cm"  />
+  <project path="hardware/intel/common/libwsbm" name="android_hardware_intel_common_libwsbm" remote="cm" />
+  <project path="hardware/intel/common/omx-components" name="android_hardware_intel_common_omx-components" remote="cm" />
+  <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" remote="cm" />
+  <project path="hardware/intel/img/psb_headers" name="android_hardware_intel_img_psb_headers" remote="cm" />
+  <project path="hardware/intel/img/psb_video" name="android_hardware_intel_img_psb_video" remote="cm" />
 
 </manifest>
