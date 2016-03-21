@@ -10,6 +10,10 @@
   <remote  name="vo"
            fetch="https://github.com/ValidusOs"
            revision="mm6.0" />
+           
+  <remote  name="vs"
+           fetch="https://github.com/Validus-Shamu"
+           revision="mm6.0" />           
 
   <remote name="bb"
            fetch="https://bitbucket.org/" />
