@@ -11,6 +11,10 @@
            fetch="https://github.com/ValidusOs"
            revision="mm6.0" />
            
+  <remote  name="tm"
+           fetch="https://github.com/ValidusOs"
+           revision="mm6.0-nexus" />           
+           
   <remote  name="vs"
            fetch="https://github.com/Validus-Shamu"
            revision="mm6.0" />           
@@ -34,7 +38,7 @@
   <project path="build" name="build" remote="vo" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="art" remote="vo"  />
+  <project path="art" name="art" remote="tm"  />
   <project path="bionic" name="bionic" remote="vo" /> 
   <project path="external/busybox" name="external_busybox" remote="vo" />  
   <project path="external/sepolicy" name="external_sepolicy" remote="vo" />
