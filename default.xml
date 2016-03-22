@@ -12,7 +12,7 @@
            revision="mm6.0" />
            
   <remote  name="tm"
-           fetch="https://github.com/ValidusOs"
+           fetch="https://github.com/Tesla-M"
            revision="mm6.0-nexus" />           
            
   <remote  name="vs"
