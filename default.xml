@@ -55,8 +55,9 @@
   <project path="system/core" name="system_core" remote="vo" />  
   <project path="vendor/validus" name="vendor_validus" remote="vo" />
 
-  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="github" revision="m" />
-  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
+  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="vs" revision="android-6.0.1" />
+  <project path="external/DUtils" name="android_external_DUtils" remote="vs" revision="mm6.0" />
+  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="vs" revision="mm6.0" />
 
   <!-- Validus Additions  -->
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
