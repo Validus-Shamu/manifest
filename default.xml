@@ -44,6 +44,7 @@
   </project>
   <project path="art" name="art" remote="tm"  />
   <project path="bionic" name="bionic" remote="vo" /> 
+  <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tm" />  
   <project path="external/busybox" name="external_busybox" remote="vo" />  
   <project path="external/sepolicy" name="external_sepolicy" remote="vo" />
   <project path="frameworks/av" name="frameworks_av" remote="vo" />
@@ -71,7 +72,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
