@@ -67,7 +67,6 @@
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="vo" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="vo" />
-  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="vo" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
