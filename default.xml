@@ -39,7 +39,7 @@
            revision="cm-13.0" />
            
   <!-- Validus repos -->
-  <project path="build" name="build" remote="vo" >
+  <project path="build" name="build" remote="vs" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" remote="tm"  />
