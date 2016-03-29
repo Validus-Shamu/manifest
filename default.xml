@@ -47,7 +47,7 @@
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tm" />  
   <project path="external/busybox" name="external_busybox" remote="vo" />  
   <project path="external/sepolicy" name="external_sepolicy" remote="vo" />
-  <project path="frameworks/av" name="frameworks_av" remote="vo" />
+  <project path="frameworks/av" name="frameworks_av" remote="vs" />
   <project path="frameworks/base" name="frameworks_base" remote="vs" />
   <project path="frameworks/native" name="frameworks_native" remote="vo" />
   <project path="packages/apps/Contacts" name="packages_apps_contacts" remote="vo" /> 
