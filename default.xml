@@ -45,15 +45,15 @@
   <project path="art" name="art" remote="tm"  />
   <project path="bionic" name="bionic" remote="vo" /> 
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tm" />  
-  <project path="external/busybox" name="external_busybox" remote="vo" />  
-  <project path="external/sepolicy" name="external_sepolicy" remote="vo" />
+  <project path="external/busybox" name="external_busybox" remote="vs" />  
+  <project path="external/sepolicy" name="external_sepolicy" remote="vs" />
   <project path="frameworks/av" name="frameworks_av" remote="vs" />
   <project path="frameworks/base" name="frameworks_base" remote="vs" />
   <project path="frameworks/native" name="frameworks_native" remote="vo" />
-  <project path="packages/apps/Contacts" name="packages_apps_contacts" remote="vo" /> 
+  <project path="packages/apps/Contacts" name="packages_apps_contacts" remote="vs" /> 
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vs" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vo" />  
-  <project path="system/core" name="system_core" remote="vo" />  
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vs" />  
+  <project path="system/core" name="system_core" remote="vs" />  
   <project path="vendor/validus" name="vendor_validus" remote="vs" />
 
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vs" />
