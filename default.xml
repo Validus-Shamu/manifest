@@ -47,7 +47,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="vm" />
   <project path="frameworks/base" name="frameworks_base" remote="vm" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="vm" /> 
-  <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tm" />
+  <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="vm" />
   <project path="frameworks/native" name="frameworks_native" remote="vm" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vm" />  
   <project path="packages/apps/Contacts" name="packages_apps_contacts" remote="vm" />
