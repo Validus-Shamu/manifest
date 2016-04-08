@@ -68,6 +68,10 @@
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
 
+  <!-- CMHW -->
+  <project path="frameworks/opt/hardware" name="SlimRoms/frameworks_opt_hardware" remote="github" revision="mm6.0" />
+  <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
+
   <!-- DragonTC -->
   <project path="prebuilts/clang/linux-x86/host/3.9" name="ExistanceVIP/dragontc-3.9" groups="pdk,linux" remote="bb" revision="master" />   
 
