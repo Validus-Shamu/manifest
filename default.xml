@@ -55,6 +55,7 @@
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="vm" />
   <project path="frameworks/native" name="frameworks_native" remote="vm" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vm" />  
+  <project path="libcore" name="libcore" remote="vm" />  
   <project path="packages/apps/Contacts" name="packages_apps_contacts" remote="vm" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="vm" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="vm" /> 
@@ -401,7 +402,6 @@
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="aospb" revision="mm6.0-caf" />
   <project path="hardware/ril" name="hardware_ril" remote="vm" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="aospb" revision="mm6.0-caf" />
-  <project path="libcore" name="libcore" remote="aospb" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="aospb" />
