@@ -45,6 +45,7 @@
   <project path="external/busybox" name="external_busybox" remote="vm" />
   <project path="external/chromium-libpac" name="external_chromium-libpac" groups="pdk-fs" remote="vm" />  
   <project path="external/DUtils" name="android_external_DUtils" remote="vm" />    
+  <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="vm" />  
   <project path="external/sepolicy" name="external_sepolicy" remote="vm" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="vm" />  
   <project path="external/v8" name="external_v8" groups="pdk" remote="vm" />  
@@ -195,7 +196,6 @@
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
