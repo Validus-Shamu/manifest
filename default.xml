@@ -56,7 +56,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="vm" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vm" />  
   <project path="libcore" name="libcore" remote="vm" />  
-  <project path="packages/apps/Contacts" name="packages_apps_contacts" remote="vm" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vm" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vm" />  
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="vm" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="vm" /> 
