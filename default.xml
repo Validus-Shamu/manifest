@@ -81,7 +81,7 @@
   <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
 
   <!-- DragonTC -->
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="xanaxdroid/dragontc-3.9" groups="pdk,linux" remote="bb" revision="dragontc" />   
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="dragontc-3.9" groups="pdk,linux" remote="vm" />   
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
