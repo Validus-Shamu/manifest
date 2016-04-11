@@ -59,6 +59,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_contacts" remote="vm" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="vm" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="vm" /> 
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vm" />  
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="vm" />  
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vm" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="vm" />  
@@ -428,7 +429,6 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="aospb" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="aospb" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospb" groups="apps_nfc,pdk-fs" />
