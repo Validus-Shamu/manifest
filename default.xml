@@ -71,6 +71,7 @@
   <project path="prebuilts/ndk" name="prebuilts_ndk" groups="pdk" remote="vm" />
   <project path="system/core" name="system_core" remote="vm" />
   <project path="vendor/validus" name="vendor_validus" remote="vm" />
+  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="vm" />
 
   <!-- CM -->
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
