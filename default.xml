@@ -556,7 +556,7 @@
 
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="external_ffmpeg" remote="slim" />
-  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="slim" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="slim" />
 
   <!-- DragonTC -->
   <project path="prebuilts/clang/linux-x86/host/3.9" name="dragontc-3.9" groups="pdk,linux" remote="vm" />
