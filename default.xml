@@ -97,7 +97,7 @@
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="slim" />
   <project path="external/apache-http" name="android_external_apache-http" remote="slim" />
   <project path="external/connectivity" name="external_connectivity" remote="slim" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="slim" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="slim" />
   <project path="external/exfat" name="external_exfat" remote="slim" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
   <project path="external/fuse" name="external_fuse" remote="slim" />
