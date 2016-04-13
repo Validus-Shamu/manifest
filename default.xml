@@ -96,7 +96,7 @@
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="slim" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="slim" />
   <project path="external/apache-http" name="android_external_apache-http" remote="slim" />
-  <project path="external/connectivity" name="external_connectivity" remote="slim" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="slim" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="slim" />
   <project path="external/exfat" name="external_exfat" remote="slim" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
@@ -555,7 +555,7 @@
   <project path="external/qrngd" name="android_external_qrngd" remote="slim" />
 
   <!-- ffmpeg -->
-  <project path="external/ffmpeg" name="external_ffmpeg" remote="slim" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="slim" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="slim" />
 
   <!-- DragonTC -->
