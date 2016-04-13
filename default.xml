@@ -93,17 +93,17 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" />
   <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="slim" />
-  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="slim" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="slim" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="slim" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="slim" />
   <project path="external/apache-http" name="android_external_apache-http" remote="slim" />
   <project path="external/connectivity" name="android_external_connectivity" remote="slim" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="slim" />
-  <project path="external/exfat" name="external_exfat" remote="slim" />
+  <project path="external/exfat" name="android_external_exfat" remote="slim" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
-  <project path="external/fuse" name="external_fuse" remote="slim" />
+  <project path="external/fuse" name="android_external_fuse" remote="slim" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
-  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="slim" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="slim" />
   <project path="external/okhttp" name="android_external_okhttp" remote="slim" />
   <project path="external/skia" name="android_external_skia" remote="slim" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slim" />
@@ -132,7 +132,7 @@
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="slim" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="slim" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="slim" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="slim" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="slim" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" />
@@ -546,7 +546,7 @@
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="slim" />
 
   <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="prebuilt" remote="slim" />
+  <project path="prebuilt" name="android_prebuilt" remote="slim" />
 
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="slim" />
