@@ -16,7 +16,7 @@
 
   <remote  name="github"
            fetch="git://github.com/"
-           review="https://review.slimroms.org/"/>
+           review="https://review.slimroms.org/" />
      
   <remote  name="slim"
            fetch="https://github.com/SlimRoms"
@@ -101,7 +101,7 @@
   <project path="external/exfat" name="external_exfat" remote="slim" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
   <project path="external/fuse" name="external_fuse" remote="slim" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim">
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="slim" />
   <project path="external/okhttp" name="android_external_okhttp" remote="slim" />
@@ -404,7 +404,7 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel"/>
+  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
@@ -559,7 +559,7 @@
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="slim" />
 
   <!-- DragonTC -->
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="dragontc-3.9" groups="pdk,linux" remote="vm" />   
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="dragontc-3.9" groups="pdk,linux" remote="vm" />
 
     <!-- Uber Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
