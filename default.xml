@@ -50,7 +50,7 @@
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="vm" />
   <project path="external/v8" name="external_v8" groups="pdk" remote="vm" />
   <project path="frameworks/av" name="frameworks_av" remote="vm" />
-  <project path="frameworks/base" name="frameworks_base" remote="vm" />
+  <project path="frameworks/base" name="frameworks_base" remote="keys" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="vm" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="vm" />
   <project path="frameworks/native" name="frameworks_native" remote="vm" />
@@ -63,7 +63,7 @@
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="vm" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vm" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="vm" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vm" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="keys" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="vm" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="vm" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="vm" revision="android-6.0.1" />
