@@ -71,6 +71,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="vm" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="vm" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="vm" />  
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="vm" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vm" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="vm" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" groups="pdk-cw-fs" remote="vm" />   
@@ -136,7 +137,6 @@
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="slim" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" />
