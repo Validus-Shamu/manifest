@@ -46,6 +46,8 @@
   <project path="external/chromium-libpac" name="external_chromium-libpac" groups="pdk-fs" remote="vm" />
   <project path="external/DUtils" name="android_external_DUtils" remote="vm" />
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="vm" />
+  <project path="external/libavc" name="external_libavc" groups="pdk" remote="vm" />
+  <project path="external/libhevc" name="external_libhevc" groups="pdk-fs" remote="vm" />  
   <project path="external/sepolicy" name="external_sepolicy" remote="vm" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="vm" />
   <project path="external/v8" name="external_v8" groups="pdk" remote="vm" />
@@ -268,7 +270,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -276,7 +277,6 @@
   <project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
