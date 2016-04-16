@@ -53,7 +53,8 @@
   <project path="external/v8" name="external_v8" groups="pdk" remote="vm" />
   <project path="frameworks/av" name="frameworks_av" remote="vm" />
   <project path="frameworks/base" name="frameworks_base" remote="vm" />
-  <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="vm" />
+  <project path="frameworks/ex" name="frameworks_ex" groups="pdk-cw-fs,pdk-fs" />  
+  <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="vm" remote="vm" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="vm" />
   <project path="frameworks/native" name="frameworks_native" remote="vm" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vm" />
@@ -378,7 +379,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
