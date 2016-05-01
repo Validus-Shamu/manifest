@@ -51,6 +51,7 @@
   <project path="external/sepolicy" name="external_sepolicy" remote="vm" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="vm" />
   <project path="external/v8" name="external_v8" groups="pdk" remote="vm" />
+  <project path="external/vixl" name="external_vixl" groups="pdk" remote="vm" />  
   <project path="frameworks/av" name="frameworks_av" remote="vm" />
   <project path="frameworks/base" name="frameworks_base" remote="vm" />
   <project path="frameworks/ex" name="frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="vm" />  
@@ -367,7 +368,6 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
-  <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
