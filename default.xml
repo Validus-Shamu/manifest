@@ -148,6 +148,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="slim" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" />
