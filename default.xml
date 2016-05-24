@@ -96,6 +96,10 @@
       <copyfile src="ota_conf" dest="ota_conf" />
   </project>
 
+  <!-- Kernel Adiutor -->
+  <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
+  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="vm" />  
+
   <!-- CM -->
   <project path="external/stlport" name="android_external_stlport" remote="cm" />
   <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" remote="cm" />
