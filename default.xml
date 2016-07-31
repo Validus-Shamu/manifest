@@ -536,6 +536,7 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8996" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="slim" revision="mm6.0-caf" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" />
@@ -544,6 +545,7 @@
   <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8996" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="slim" />
   <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="slim" />
   <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8084" />
@@ -551,6 +553,7 @@
   <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" remote="slim" revision="mm6.0-caf-8996" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="slim" revision="mm6.0-caf" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="slim" revision="mm6.0-caf" />
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="slim" />
