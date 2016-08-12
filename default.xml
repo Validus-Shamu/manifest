@@ -99,7 +99,11 @@
 
   <!-- Kernel Adiutor -->
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
-  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="vm" />  
+  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="vm" />
+
+  <!-- Setup Wizard -->
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="vm" />
+  <project path="frameworks/opt/setupwizard" name="android_frameworks_opt_setupwizard" remote="cm" />
 
   <!-- CM -->
   <project path="external/stlport" name="android_external_stlport" remote="cm" />
@@ -408,7 +412,6 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vm" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
