@@ -38,7 +38,7 @@
   <project path="build" name="build" remote="vm" revision="nodtc" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="art" remote="vm"  />
+  <project path="art" name="art" remote="vm" revision="nodtc"  />
   <project path="bionic" name="bionic" remote="vm" />
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="vm" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vm" />
@@ -47,7 +47,7 @@
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="vm" />
   <project path="external/sepolicy" name="external_sepolicy" remote="vm" />
   <project path="frameworks/av" name="frameworks_av" remote="vm" />
-  <project path="frameworks/base" name="frameworks_base" remote="vm" />
+  <project path="frameworks/base" name="frameworks_base" remote="vm" revision="nodtc" />
   <project path="frameworks/native" name="frameworks_native" remote="vm" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vm" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="vm" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />  
