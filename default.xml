@@ -44,7 +44,6 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vm" />
   <project path="external/busybox" name="external_busybox" remote="vm" />
   <project path="external/DUtils" name="android_external_DUtils" remote="vm" />
-  <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="vm" />
   <project path="external/sepolicy" name="external_sepolicy" remote="vm" />
   <project path="frameworks/av" name="frameworks_av" remote="vm" />
   <project path="frameworks/base" name="frameworks_base" remote="vm" revision="nodtc" />
@@ -119,6 +118,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="slim" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
   <project path="external/fuse" name="android_external_fuse" remote="slim" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="slim" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="slim" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
